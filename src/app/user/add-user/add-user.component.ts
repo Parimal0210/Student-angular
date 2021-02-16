@@ -35,7 +35,7 @@ export class AddUserComponent implements OnInit {
         }
       },
       error => {
-        alert("Error!!");
+        alert(error.message);
       });
   }
 
